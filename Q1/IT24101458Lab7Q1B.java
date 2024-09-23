@@ -9,17 +9,13 @@ public static void main(String[]args){
 		
 		System.out.println("Student "+student);
 
-		System.out.print("Enter Subject Mark 1:");
+		System.out.print("Enter marks:");
 		m1=a.nextInt();
-
-		System.out.print("Enter Subject Mark 2:");
 		m2=a.nextInt();
-
-		System.out.print("Enter Subject Mark 3:");
 		m3=a.nextInt();
-
-		System.out.print("Enter Subject Mark 4:");
 		m4=a.nextInt();
+
+		System.out.println("Enter marks:"+m1+" "+m2+" "+m3+" "+m4);
 
 		Average=(m1+m2+m3+m4)/4.0;
 
@@ -34,6 +30,8 @@ public static void main(String[]args){
 		}else{
 			System.out.println("Invalid Mark!");
 		}
+	
+		System.out.println();
 
 		}
 		
